@@ -135,6 +135,22 @@ section ul li{
   align-items: center;
 }
 
+/* efeito fixo SOMENTE no desktop */
+@media (min-width: 769px) {
+  .banner {
+    background-attachment: fixed;
+  }
+}
+
+/* ajuste para celular */
+@media (max-width: 768px) {
+  .banner {
+    height: 260px;
+    background-attachment: scroll; /* 🔥 importante */
+    background-position: center;
+  }
+}
+
 .banner h1 {
   margin: 0; /* MUITO importante */
   color: white;
