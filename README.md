@@ -8,9 +8,9 @@ A proposta é promover consciência global, unindo tecnologia e informação par
 
 💻 Tecnologias Utilizadas
 
-HTML5 – estrutura da página
+HTML – estrutura da página
 
-CSS3 – estilização, layout e responsividade
+CSS – estilização, layout e responsividade
 
 JavaScript – interações básicas (formulário e slider)
 
