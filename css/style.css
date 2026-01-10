@@ -126,8 +126,6 @@ section ul li{
   background-position: center 100%; /*  sobe um pouco a imagem */
   background-repeat: no-repeat;
 
-  background-attachment: fixed;
-
   height: 500px;
 
   display: flex;
@@ -136,7 +134,7 @@ section ul li{
 }
 
 /* efeito fixo SOMENTE no desktop */
-@media (min-width: 769px) {
+@media (min-width: 1024px) {
   .banner {
     background-attachment: fixed;
   }
